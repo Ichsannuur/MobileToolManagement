@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ics.stockbarang.Action.Execute.TransaksiBarangMasuk">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card1"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:id="@+id/search"
+                android:hint="Cari Nama Barang"
+                android:paddingBottom="20dp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <ListView
+        android:layout_below="@id/card1"
+        android:layout_width="match_parent"
+        android:id="@+id/listview"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</RelativeLayout>

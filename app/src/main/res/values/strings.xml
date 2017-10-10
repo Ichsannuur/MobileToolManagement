@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Stock Barang</string>
+    <string name="dist">List Distributor</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_action__barang">List Kelola Barang</string>
+    <string name="title_activity_action_masuk">Barang Masuk</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jumlah_data_barang">Jumlah Data Barang</string>
+    <string name="jumlah_data_distributor">Jumlah Data Distributor</string>
+    <string name="data_barang_masuk">Data Barang Masuk</string>
+    <string name="data_barang_keluar">Data Barang Keluar</string>
+    <string name="data_barang_masuk_sort_by_date">Data Barang Masuk Sort By Date</string>
+    <string name="data_keluar_masuk_sort_by_date">Data Keluar Masuk Sort By Date</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">User Friendly</string>
+    <string name="slide_1_desc">Mudah dan nyaman untuk digunakan oleh user.</string>
+
+    <string name="slide_2_title">Safety Data</string>
+    <string name="slide_2_desc">Data tersimpan dengan aman pada tempatnya.</string>
+
+    <string name="slide_3_title">Fast Trasfer Data</string>
+    <string name="slide_3_desc">Kecepatan dan kemudahan mentransfer data.</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_registrasi_admin">RegistrasiAdmin</string>
+</resources>

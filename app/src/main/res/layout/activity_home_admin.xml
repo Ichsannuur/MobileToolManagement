@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ics.stockbarang.HomeAdmin">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frm1"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/art"
+            android:adjustViewBounds="true"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@color/colorAccent"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome To Main Menu"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line1"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_below="@+id/frm1"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/rl1"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/card1"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/barang"
+                        android:id="@+id/barang"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/barang"
+                        android:text="Kelola Barang"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/rl2"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/card2"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/distri"
+                        android:id="@+id/distri"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/distri"
+                        android:text="Kelola Distributor"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line2"
+        android:gravity="center"
+        android:layout_marginTop="-15dp"
+        android:weightSum="2"
+        android:layout_below="@+id/line1"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/rl3"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/card3"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/inp"
+                        android:id="@+id/in"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/in"
+                        android:text="Barang Masuk"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/rl4"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/card4"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/out"
+                        android:id="@+id/keluar"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/keluar"
+                        android:text="Barang Keluar"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
