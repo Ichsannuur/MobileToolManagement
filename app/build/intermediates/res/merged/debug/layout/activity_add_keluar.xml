@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="com.ics.stockbarang.Action.Execute.Add_masuk">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card1"
+                android:id="@+id/card2"
+                android:layout_marginTop="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="20dp"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:hint="Barang"
+                            android:id="@+id/barang_keluar"
+                            />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:id="@+id/butBarang"
+                            android:text="Pilih"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:textColor="@android:color/white"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/card2"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="QTY keluar"
+                            android:id="@+id/qty"
+                            android:paddingBottom="20dp"
+                            android:maxLength="7"
+                            android:inputType="number"
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tgl_masuk"
+                            android:paddingBottom="20dp"
+                            android:layout_below="@+id/qty"
+                            android:enabled="false"
+                            android:inputType="numberDecimal"
+                            />
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tgl_masuk"
+                            android:textColor="@android:color/white"
+                            android:background="@color/colorAccent"
+                            android:text="Simpan Data"
+                            android:id="@+id/simpanData"
+                            />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

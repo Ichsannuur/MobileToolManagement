@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+      <ImageView
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:layout_centerHorizontal="true"
+          android:id="@+id/imageView"
+          android:src="@drawable/alert"
+          />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/imageView"
+       android:layout_marginTop="20dp"
+       android:textAlignment="center"
+       android:text="Alert"
+       android:textSize="38dp"
+       android:id="@+id/textAlert"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/textAlert"
+       android:layout_marginTop="10dp"
+       android:text="Apakah Anda yakin ingin keluar ?"
+       android:id="@+id/alert2"
+       android:textAlignment="center"
+       android:textSize="20dp"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorAccent"
+       android:textColor="@android:color/white"
+       android:foreground="?attr/selectableItemBackground"
+       android:clickable="true"
+       android:text="Mengerti"
+       android:id="@+id/butdialog"
+       android:layout_below="@+id/alert2"
+       android:layout_marginTop="23dp" />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/butdialog"
+       android:layout_marginTop="10dp"
+       android:background="?attr/selectableItemBackground"
+       android:textColor="@color/colorAccent"
+       android:text="Cancel"
+       android:id="@+id/cancel"
+       />
+
+
+</RelativeLayout>

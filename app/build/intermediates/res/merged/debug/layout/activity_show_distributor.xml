@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ics.stockbarang.Action.Execute.Show_distributor">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama_distributor"
+        android:enabled="false"
+        android:hint="Nama Distributor"
+        android:paddingBottom="20dp"
+        />
+    <EditText
+        android:enabled="false"
+        android:id="@+id/alamat_distributor"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/nama_distributor"
+        android:layout_height="150dp"
+        android:hint="Alamat Distirbutor"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_hp"
+        android:layout_below="@+id/alamat_distributor"
+        android:hint="Nomor Handphone"
+        android:paddingBottom="20dp"
+        />
+
+</RelativeLayout>

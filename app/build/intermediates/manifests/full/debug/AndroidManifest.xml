@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ics.stockbarang"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/domar2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ics.stockbarang.Action.Action_Distributor"
+            android:label="@string/dist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Add_distributor" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Show_distributor" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Update_distributor" />
+        <activity
+            android:name="com.ics.stockbarang.Action.Action_Barang"
+            android:label="@string/title_activity_action__barang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Add_barang" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Show_barang" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Update_barang" />
+        <activity
+            android:name="com.ics.stockbarang.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.ics.stockbarang.HomeAdmin" />
+        <activity
+            android:name="com.ics.stockbarang.Action.Action_masuk"
+            android:label="@string/title_activity_action_masuk" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.TransaksiDistributorMasuk" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Add_masuk" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.TransaksiBarangMasuk" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Show_masuk" />
+        <activity android:name="com.ics.stockbarang.Action.Action_keluar" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Add_keluar" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.TransaksiBarangKeluar" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.Show_keluar" />
+        <activity android:name="com.ics.stockbarang.ManagerAdmin" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.SortMasuk" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.ReportMasuk" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.SortKeluar" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.ReportKeluar" />
+        <activity
+            android:name="com.ics.stockbarang.Misc.WelcomeActivity"
+            android:theme="@style/slider" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ics.stockbarang.Action.RegistrasiAdmin"
+            android:label="@string/title_activity_registrasi_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.AddAdmin" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.ShowAdmin" />
+        <activity android:name="com.ics.stockbarang.Action.Execute.UpdateAdmin" />
+    </application>
+
+</manifest>

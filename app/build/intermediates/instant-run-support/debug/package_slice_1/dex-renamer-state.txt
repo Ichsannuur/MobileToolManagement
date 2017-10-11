@@ -1,0 +1,4 @@
+#Thu Aug 31 22:47:58 ICT 2017
+base.0=D\:\\Dokumen Ichsan\\Indonesia Creative Studio\\StockBarang\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+renamed.0=classes.dex
+file.0=D\:\\Dokumen Ichsan\\Indonesia Creative Studio\\StockBarang\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

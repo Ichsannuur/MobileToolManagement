@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ics.stockbarang.Action.Execute.Update_barang">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Kode Barang"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/kode_barang"
+        android:paddingBottom="20dp"
+        />
+
+    <EditText
+        android:hint="Nama Barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:id="@+id/nama_barang"
+        android:layout_below="@+id/kode_barang"
+        android:maxLength="25"
+        android:paddingBottom="20dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:text="Update"
+        android:layout_below="@+id/nama_barang"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

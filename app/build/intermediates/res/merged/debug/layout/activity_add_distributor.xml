@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ics.stockbarang.Action.Execute.Add_distributor">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama_distributor"
+        android:hint="Nama Distributor"
+        android:maxLength="25"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:paddingBottom="20dp"
+        />
+    <EditText
+        android:id="@+id/alamat_distributor"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/nama_distributor"
+        android:layout_height="150dp"
+        android:hint="Alamat Distirbutor"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_hp"
+        android:maxLength="13"
+        android:layout_below="@+id/alamat_distributor"
+        android:hint="Nomor Handphone"
+        android:inputType="numberDecimal"
+        android:paddingBottom="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_hp"
+        android:id="@+id/simpan"
+        android:text="Simpan"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

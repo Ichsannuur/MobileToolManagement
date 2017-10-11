@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ichsan.fatiha\.android\build-cache\bc38dd2aed2999e772f076c942193c94e539d41f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="75d15557ff7531e59b01362d46bb06dd59c5f971">
+        <dex dex="D:\Dokumen Ichsan\Indonesia Creative Studio\StockBarang\app\build\intermediates\pre-dexed\debug\classes_bffb35eb5419e28b5e28b46fc04be9f7b6cb229a.jar" />
+    </item>
+
+</items>
